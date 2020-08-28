@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/bakery/static/css/main.183e6124.chunk.css",
-    "main.js": "/bakery/static/js/main.820b9a12.chunk.js",
-    "main.js.map": "/bakery/static/js/main.820b9a12.chunk.js.map",
+    "main.js": "/bakery/static/js/main.5c97fdbf.chunk.js",
+    "main.js.map": "/bakery/static/js/main.5c97fdbf.chunk.js.map",
     "runtime-main.js": "/bakery/static/js/runtime-main.47277509.js",
     "runtime-main.js.map": "/bakery/static/js/runtime-main.47277509.js.map",
     "static/css/2.9a67dc5d.chunk.css": "/bakery/static/css/2.9a67dc5d.chunk.css",
     "static/js/2.f10a981a.chunk.js": "/bakery/static/js/2.f10a981a.chunk.js",
     "static/js/2.f10a981a.chunk.js.map": "/bakery/static/js/2.f10a981a.chunk.js.map",
     "index.html": "/bakery/index.html",
-    "precache-manifest.ccdb111d8a0e1cb7d19cb4e83f37ea6c.js": "/bakery/precache-manifest.ccdb111d8a0e1cb7d19cb4e83f37ea6c.js",
+    "precache-manifest.0fc751527f79485518ff4e9bad272c52.js": "/bakery/precache-manifest.0fc751527f79485518ff4e9bad272c52.js",
     "service-worker.js": "/bakery/service-worker.js",
     "static/css/2.9a67dc5d.chunk.css.map": "/bakery/static/css/2.9a67dc5d.chunk.css.map",
     "static/css/main.183e6124.chunk.css.map": "/bakery/static/css/main.183e6124.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.9a67dc5d.chunk.css",
     "static/js/2.f10a981a.chunk.js",
     "static/css/main.183e6124.chunk.css",
-    "static/js/main.820b9a12.chunk.js"
+    "static/js/main.5c97fdbf.chunk.js"
   ]
 }
