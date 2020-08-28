@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/bakery/static/css/main.183e6124.chunk.css",
+    "main.js": "/bakery/static/js/main.5c97fdbf.chunk.js",
+    "main.js.map": "/bakery/static/js/main.5c97fdbf.chunk.js.map",
+    "runtime-main.js": "/bakery/static/js/runtime-main.47277509.js",
+    "runtime-main.js.map": "/bakery/static/js/runtime-main.47277509.js.map",
+    "static/css/2.9a67dc5d.chunk.css": "/bakery/static/css/2.9a67dc5d.chunk.css",
+    "static/js/2.f10a981a.chunk.js": "/bakery/static/js/2.f10a981a.chunk.js",
+    "static/js/2.f10a981a.chunk.js.map": "/bakery/static/js/2.f10a981a.chunk.js.map",
+    "index.html": "/bakery/index.html",
+    "precache-manifest.0fc751527f79485518ff4e9bad272c52.js": "/bakery/precache-manifest.0fc751527f79485518ff4e9bad272c52.js",
+    "service-worker.js": "/bakery/service-worker.js",
+    "static/css/2.9a67dc5d.chunk.css.map": "/bakery/static/css/2.9a67dc5d.chunk.css.map",
+    "static/css/main.183e6124.chunk.css.map": "/bakery/static/css/main.183e6124.chunk.css.map",
+    "static/js/2.f10a981a.chunk.js.LICENSE.txt": "/bakery/static/js/2.f10a981a.chunk.js.LICENSE.txt",
+    "static/media/brands.css": "/bakery/static/media/fa-brands-400.dc0bd022.woff",
+    "static/media/solid.css": "/bakery/static/media/fa-solid-900.ee09ad75.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47277509.js",
+    "static/css/2.9a67dc5d.chunk.css",
+    "static/js/2.f10a981a.chunk.js",
+    "static/css/main.183e6124.chunk.css",
+    "static/js/main.5c97fdbf.chunk.js"
+  ]
+}
