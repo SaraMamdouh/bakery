@@ -32,7 +32,7 @@ check=(e)=>{
     
   return(
     <BrowserRouter>
-    <Index/>
+    <Route path="/" exact component={Index}></Route>
     <Route path="/contact"  component={()=><Contact check={this.check} remove={this.remove}/>}></Route>
     <Route path="/gallery" component={Gallery}></Route>
     <Route path="/blog" component={BlogList}></Route>
