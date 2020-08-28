@@ -1,0 +1,85 @@
+.heading-1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 42px;
+    font-size: 65px;
+    padding-top: 60px;
+    padding-bottom: 14px;
+}
+.offer{
+    margin-top: 500px;
+}
+
+.offer .row{
+    margin: 0 15px;
+}
+.offer .row .col-sm{
+    padding-right: 0px;
+    padding-left: 0;
+    text-align: center;
+    border-radius: 6px;
+    height: 500px;
+    transition: all .25s ease;
+
+}
+
+.offer .row .col-sm:hover  {
+box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.15);
+  }
+
+.col-sm:hover .offerlink{
+ border: 2px solid #c14679;
+ padding: 12px 22px;
+ color: #c14679;
+
+}
+.col-sm:hover .image{
+transform: scale(1.1);
+border: none;
+}
+
+.col-sm .image{
+    border: 1px solid #d5d3d3;
+    padding: 10px;
+    transition: transform 0.25s ease;
+    margin-top: 20px;
+}
+.col-sm  .title{
+    margin: 15px 0;
+    letter-spacing: 0.1em;
+    font-size: 27px;
+    transition: all 0.25s ease-in-out;
+    pointer-events: none;
+}
+.col-sm .title:hover{
+color:#c14679;
+}
+
+.col-sm  .offer-p{
+    width: 91%;
+    color: #112111;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 35px;
+}
+.col-sm .offerlink{
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    border-bottom: 2px solid #a3a3a3;
+    color: #a3a3a3;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: padding .3s ease, color .3s ease-in-out;
+    letter-spacing: 0.05em;
+    padding: 5px 0;
+    line-height: 1.2;
+}
+.col-sm .offerlink:hover{
+border: 2px solid black;
+cursor: pointer;
+padding: 12px 22px;
+color: black;
+
+}

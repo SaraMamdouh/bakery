@@ -1,0 +1,158 @@
+.gallery .container{
+padding: 0;
+}
+.gallery .gallery-header{
+    background-image: url("/images/images/banner/breadcrumbs-bg.jpg");
+    height: 300px;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.gallery .gallery-heading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 55px;
+    letter-spacing: 0.05em;
+}
+.gallery .container-fluid{
+    position: relative;
+    text-align: center;
+    padding: 0 30px;
+}
+.gallery .gallery-categories{
+    display: inline-block;
+    position: relative;
+    padding-bottom:4px ;
+}
+.gallery .gallery-categories::before{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 90.5%;
+    border-radius: 6px;
+    background: #d7d7d7;
+}
+.gallery .gallery-list{
+list-style: none;
+margin-top: 80px;
+padding: 0;
+}
+.gallery .navb .container-fluid{
+    padding-right: 80px;
+}
+.gallery .gallery-list>li{
+    display: inline-block;
+    padding-right: 35px;
+}
+.gallery .gallery-link{
+    position: relative;
+    text-align: center;
+    display: block;
+    font-weight: 700;
+    color: #9b9b9b;
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: .02em;
+    transition: all 0.25s ease-in-out;
+}
+.gallery .gallery-link:hover,.gallery .gallery-link:focus,.gallery .gallery-link:active{
+    text-decoration: none;
+    color: #c14679;
+}
+.gallery .active-link{
+    color: #c14679;
+}
+
+.gallery .gallery-link::before{
+    opacity: 0;
+    transition: all .25s ease;
+    position: absolute;
+    content: '';
+    top: 35px;
+    left: 50%;
+    height: 4px;
+    width: 130%;
+    border-radius: 6px;
+    background-color: #c14679;
+    transform: translate3d(-50%,0,0);
+}
+.gallery .gallery-link:hover::before,.gallery .active-link::before{
+    width: 100%;
+    opacity: 1;
+
+}
+.gallery .container-fluid .row {
+    margin-top:60px;
+    margin-bottom: 60px;
+}
+.gallery .container-fluid .row .col{
+    padding-bottom: 35px;
+    position: relative;
+}
+.gallery .col:hover .gallery-details{
+opacity: 1;
+    transform: scale(1);
+}
+.gallery .gallery-details{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255,0.9);
+    width: 100%;
+    height: 100%;
+    transform: scale(0.8);
+	transition: all .3s ease;
+    opacity: 0;
+}
+.gallery .gallery-caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.gallery .cake-name{
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    width: 108%;
+    transition: all 0.2s ease-in-out;
+}
+.gallery .cake-name:hover{
+    color: #c14679;
+    cursor: pointer;
+}
+.gallery .cake-price{
+    font-size: 17px;
+    color: #c14679;
+    display: block;
+    font-weight: 600;
+    margin-bottom: 22px;
+}
+.gallery .col .cake-icon .fas{
+    background-color: #c14679;
+    border-radius: 50%;
+    color: white;
+width: 50px;
+height: 50px;
+    margin: 0 10px;
+    font-size: 20px;
+    line-height: 46px;
+    text-align: center;
+    
+}
+.gallery .fas:hover{
+    cursor: pointer;
+}
+
+.gallery .footer{
+    border-top: 1px solid #e1e1e1;
+}
+.gallery .footer .container{
+    margin-top: 80px;
+}

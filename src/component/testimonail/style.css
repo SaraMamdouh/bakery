@@ -1,0 +1,54 @@
+.heading-1{
+    letter-spacing: 0.05em;
+    color:#151515;
+}
+
+.testimonial .fas{
+    color: #c14679;
+    display: inline-flex;
+    font-size: 22px;
+    position: absolute;
+    padding-top: 5px;
+}
+.testimonial .review{
+    font-size: 19px;
+    color: #777777;
+    display: inline-flex;
+    width: 75%;
+    margin-left: 44px;
+    line-height: 1.45;
+    font-weight: 400;
+    letter-spacing: .02em;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-ser
+}
+.testimonial .testimonial-line{
+    border-top: 1px solid #e3dddd;
+    display: block;
+    width: 82%;
+    position: relative;
+    margin: 15px 0;
+}
+
+.testimonial .client-image{
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.testimonial .client-name{
+    display: inline-flex;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+.testimonial .job{
+    display: block;
+    margin-left: 76px;
+    margin-top: -22px;
+    text-transform: capitalize;
+    color: #c14679;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0.05em;
+}
+.testimonial .owl-carousel .owl-item img {
+    display: inline-flex;
+}

@@ -1,0 +1,114 @@
+
+.testimonial{
+margin-bottom: 100px;
+}
+.heading{
+    background-image: url("/images/images/banner/bg-img-1.jpg");
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.heading .container{
+    padding-top: 50px;
+}
+.header-1,.header-3{
+    color: #c14679 !important;
+    font-family: "Great Vibes",cursive;
+    display: block;
+    margin-bottom: -15px;
+}
+.header-1{
+    font-size: 100px;
+}
+.line{
+        width: 5%;
+        border-top: 2px solid #151515;
+        display: inline-block;
+        margin: 0px 25px 9px 0;
+}   
+.header-2{
+    display: inline-block;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 0.20em;
+    color: #151515;
+    line-height: 1.33333;
+}
+.paragraph{
+    color: #777777c9;
+    letter-spacing: 0.1em;
+    font-weight: 500 !important;
+    line-height: 1.5;
+    font-size: 25px;
+    margin-top: 13px;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    width: 40%;
+}
+
+.container .btn-head{
+    background-color: #c14679;
+    font-size: 14px;
+    padding: 20px 45px;
+    line-height: 2;
+    box-shadow: 3px 9px 18px 0 rgba(0, 0, 0, 0.18);
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    border-radius: 7px;
+    margin-top: 13px;
+}
+
+.container .btn-head:hover,.container .btn-head:active,.container .btn-head:focus{
+    color: white;
+    box-shadow: 3px 9px 18px 0 rgba(0, 0, 0, 0.18);
+}
+.heading-2{
+    background-image: url("/images/images/banner/promo-1-1149x474.jpg");
+    height:500px;
+    text-align: center;
+    border: 10px solid #f3f7f8;
+    padding: 30px 15px 90px;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 9px 117px;
+}
+
+
+.header-3{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 10px;
+}
+.paragraph-2{
+    font-size: 20px;
+    line-height: 1.66667;
+    letter-spacing: .05em;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+text-align: center;
+margin-top: 35px;
+color: #7e8282;
+}
+
+.heading-2 .btn-arrow{
+    background-color: #c14679;
+    border: none;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px 14px;
+}
+.heading-2 .btn-arrow:active ,.heading-2 .btn-arrow:focus{
+box-shadow: none;
+}
+.fa-arrow-right{
+    color: white;
+    font-size: 19px;
+}

@@ -1,0 +1,214 @@
+{
+    "offer" : [
+        {
+            "id" : 1,
+            "image":"images/offer/offer-1-340x243.jpg",
+            "title":"PARTY CUPCAKES",
+            "paragraph":"We provide a variety of cupcakes for any party made with high-quality natural ingredients and no preservatives."
+      
+        },
+        {
+            "id" : 2,
+            "image":"images/offer/offer-2-340x243.jpg",
+            "title":"CHOCO CAKES",
+            "paragraph":"Nothing tastes better than a chocolate cake with a variety of flavors, which is always available at our bakery."
+      
+
+        },
+        {
+            "id" : 3,
+            "image":"images/offer/offer-3-340x243.jpg",
+            "title":"WEDDING CAKES",
+            "paragraph":"Want to make your wedding unforgettable? Then you need to order a unique wedding cake at Sweet Bakery!"
+      
+
+        }
+    ],
+   
+    "shop" :[ 
+    { 
+        "id":1,
+      "image":"images/product/product-5-187x155.png",
+      "title":"fairytale brownies",
+      "price":"$23.00"
+
+    },
+    { 
+        "id":2,
+      "image":"images/product/product-6-140x137.png",
+      "title":"Chocolate biscuits",
+      "price":"$13.00"
+
+    },
+    { 
+        "id":3,
+      "image":"images/product/product-8-128x126.png",
+      "title":"soft biscuits",
+      "price":"$17.00"
+
+    },
+    { 
+        "id":4,
+      "image":"images/product/product-9-141x129.png",
+      "title":"drop biscuits",
+      "price":"$11.00"
+
+    },
+    {
+    "id":5,
+    "image":"images/product/product-10-144x146.png",
+    "title":"vegan cookies",
+    "price":"$23.00"
+
+  },
+  {"id":6,
+  "image":"images/product/product-1-152x160.png",
+  "title":"chocolate truffle",
+  "price":"$23.00"
+
+},
+  { 
+      "id":7,
+    "image":"images/product/product-2-157x127.png",
+    "title":"Chocolate Pudding",
+    "price":"$25.00"
+
+  },
+  { 
+      "id":8,
+    "image":"images/product/product-3-179x114.png",
+    "title":"Dark Chocolate Cake",
+    "price":"$15.00"
+
+  },
+  { 
+      "id":9,
+    "image":"images/product/product-4-215x112.png",
+    "title":"Chocolate Cookies",
+    "price":"$12.00"
+
+  }
+    ] ,
+
+    "footer" : [
+       {
+         "image":"/images/grid-gallery-1-130x130.jpg"
+       },
+       {
+        "image":"/images/grid-gallery-2-130x130.jpg"
+       },
+       {
+        "image":"/images/grid-gallery-3-130x130.jpg"
+       },
+       {
+        "image":"/images/grid-gallery-4-130x130.jpg"
+       },
+       {
+        "image":"/images/grid-gallery-5-130x130.jpg"
+       },
+       {
+        "image":"/images/grid-gallery-6-130x130.jpg"
+       }
+       
+    ] 
+,
+"gallery":[
+  {
+  "image":"/images/images/grid-fullwidth-gallery-1-480x339.jpg",
+  "name":"sponge cake",
+  "price":"$13.99"
+  },
+  {
+    "image":"/images/images/grid-fullwidth-gallery-2-480x339.jpg",
+    "name":"angle food cake",
+  "price":"$12.99"
+    },
+    {
+      "image":"/images/images/grid-fullwidth-gallery-3-480x339.jpg",
+      "name":"strawberry cup cake",
+  "price":"$10.99"
+      }, 
+      {
+        "image":"/images/images/grid-fullwidth-gallery-4-480x339.jpg",
+        "name":"lemon cupcake",
+  "price":"$12.99"
+        },
+        {
+          "image":"/images/images/grid-fullwidth-gallery-5-480x339.jpg",
+          "name":"geniose cake",
+  "price":"$14.99"
+          },
+          {
+            "image":"/images/images/grid-fullwidth-gallery-6-480x339.jpg",
+            "name":"champagne cupcake",
+  "price":"$17.99"
+            }
+
+],
+"blog":[
+{
+  "title":"How to Pipe a Fluffy Frosting Border on a Cake",
+  "image":"/images/images/blog/post-7-800x394.jpg",
+  "content":"Risus commodo viverra maecenas accumsan lacus vel. Nulla facilisi cras fermentum odio eu. Et egestas quis ipsum suspendisse. Sed nisi lacus sed viverra. Sodales ut eu sem."
+},
+{
+  "title":"Recipe of the Day: Pumpkin Spice Latte Cake",
+  "image":"/images/images/blog/post-8-800x394.jpg",
+  "content":"Facilisis mauris sit amet massa. Id faucibus nisl tincidunt eget nullam. Mus mauris vitae ultricies leo integer malesuada. Aliquam sem fringilla ut morbi tincidunt augue."
+},
+{
+  "title":"Top 5 Tips for Successful Cake Baking",
+  "image":"/images/images/blog/post-9-800x394.jpg",
+  "content":"Orci phasellus egestas tellus rutrum tellus pellentesque eu. Proin fermentum leo vel orci porta non pulvinar neque laoreet. Venenatis a condimentum vitae sapien pellentesque."
+}
+],
+"testimonial":[
+  {
+    "paragraph":"Pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Est ullamcorper eget nulla facilisi etiam dignissim diam quis enim. Mauris a diam maecenas sed enim ut sem viverra aliquet.",
+    "image":"/images/testimeniol/user-5-62x62.jpg",
+    "name":"james paterson"
+  },
+  {
+    "paragraph":"Lectus proin nibh nisl condimentum id venenatis a condimentum. Sed id semper risus in hendrerit. Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices libero id faucibus.",
+    "image":"/images/testimeniol/user-6-62x62.jpg",
+    "name":"ann mcmmillan"
+  }
+],
+"contact":[
+  {
+    "id":"0",
+    "label":"First Name"
+  },
+  {
+    "id":1,
+    "label":"Second Name"
+  },
+  {
+    "id":2,
+    "label":"E-mail"
+  },
+  {
+    "id":3,
+    "label":"Phone"
+  }
+],
+"cart":[
+  {
+    "id":0,
+    "image":"/images/cart/product-mini-4-146x132.png",
+    "title":" milk Chocolate Pudding",
+    "price":25,
+    "quantity":1,
+    "total":25
+  },
+  {
+    "id":1,
+    "image":"/images/cart/product-mini-5-146x132.png",
+    "title":"Chocolate truffles",
+    "price":23,
+    "quantity":1,
+    "total":23
+  }
+]
+  
+}
