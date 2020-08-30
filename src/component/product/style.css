@@ -1,0 +1,112 @@
+.product{
+    margin-top: 100px;
+    background-image: url("/images/images/banner/bg-pattern-1.jpg");
+    height: 650px;
+}
+.price-header{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: 0.1em;
+}
+
+.owl-carousel .owl-item img{
+    width: auto;
+}
+.product .item{
+    background-color: white;
+    position: relative;
+	text-align: center;
+	padding: 30px 15px 30px;
+	max-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+    z-index: 1;
+    height: 320px;
+    border-radius: 6px;
+    box-shadow: 0 1px 18px 0 rgba(0, 0, 0, 0.09);
+    transition: transform 0.25s ease-in-out,height 0.25s ease;
+}
+.figure{
+    display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	min-height: 180px;
+}
+.sale,.new{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 5px 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    position: relative;
+    top: -11px;
+    left: 84px;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.sale{
+    background-color: #c14679;
+}
+.new{
+background-color: black;
+}
+.product .title{
+    margin-top: 13px;
+}
+.product .price{
+    color: #c14679;
+    display:inline-block;
+    font-weight: 700;
+}
+
+.product .old-price{
+display: inline-flex;
+text-decoration: line-through;
+color: rgba(21, 21, 21, 0.5);
+margin: 0 10px;
+}
+.hidden-item{
+ display: none;
+}
+.product .fas{
+    background-color: #c14679;
+    border-radius: 50%;
+    color: white;
+width: 50px;
+height: 50px;
+    margin: 0 10px;
+    font-size: 20px;
+    line-height: 46px;
+    text-align: center;
+    
+}
+.product .fas:hover{
+    cursor: pointer;
+}
+
+.product .item:hover .hidden-item{
+    display: block;
+}
+.product .item:hover{
+    height: 380px;
+    transform: translate3d(0,-10px,0);
+}
+.owl-theme .owl-dots{
+font-size: 34px;
+}
+.owl-theme .owl-dots .owl-dot span{
+    width:14px;
+    height: 14px;
+    transition: all .25s ease-in-out;
+    border: none;
+}
+button:focus{
+    outline: none;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+background-color: #c14679;
+border: none;
+}

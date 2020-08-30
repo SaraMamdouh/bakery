@@ -1,0 +1,13 @@
+.client{
+    background-image: url("/images/images/banner/bg-img-2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+.client .item img{
+    transition: all .25s ease;
+}
+.client .item:hover img{
+    opacity: .7;
+}
